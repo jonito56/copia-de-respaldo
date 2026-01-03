@@ -14,6 +14,8 @@ TDS:GameInfo("Simplicity", {
     ExplodingEnemies = true
 })
 
+TDS:autoskip(true)
+
 TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
 TDS:Place("Scout", -24.46096, 95, -6.75553) -- 1
 TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
@@ -77,8 +79,7 @@ TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
 TDS:Upgrade(16)
 TDS:Upgrade(16)
 TDS:Upgrade(16)
-TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
-TDS:Upgrade(17)
+TDS:Place("Commander", -18.37748, 95, -4.68923) -- 3
 TDS:Upgrade(17)
 TDS:Upgrade(17)
 TDS:Place("Commander", -18.37748, 95, -4.68923) -- 3
@@ -87,19 +88,20 @@ TDS:Upgrade(18)
 TDS:Place("Commander", -18.37748, 95, -4.68923) -- 3
 TDS:Upgrade(19)
 TDS:Upgrade(19)
-TDS:Place("Commander", -18.37748, 95, -4.68923) -- 3
-TDS:Upgrade(20)
-TDS:Upgrade(20)
 
-TDS:AutoChain(18, 19, 20)
+TDS:AutoChain(17, 18, 19)
+
+TDS:Loadout("Mercenary Base", "DJ Booth", "Hacker", "Firework Technician", "Warlock")
 
 TDS:Place("Mercenary Base", -7.76190, 95, -0.41696) -- 4
-TDS:Upgrade(21)
-TDS:Upgrade(21)
-TDS:Upgrade(21)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
 TDS:Place("Mercenary Base", 14.15599, 95, 9.38280) -- 4
-TDS:Upgrade(22)
-TDS:Upgrade(22)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Firework Technician", -13.76295, 95, -8.90935) -- 5
 TDS:Upgrade(22)
 TDS:Place("Mercenary Base", 14.15599, 95, 9.38280) -- 4
 TDS:Upgrade(23)
@@ -120,13 +122,12 @@ TDS:Upgrade(13)
 TDS:Upgrade(14)
 TDS:Upgrade(15)
 TDS:Upgrade(16)
-TDS:Upgrade(17)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
 TDS:Upgrade(21)
 TDS:Upgrade(21)
 TDS:Upgrade(21)
-TDS:Upgrade(22)
-TDS:Upgrade(22)
-TDS:Upgrade(22)
 
 TDS:SetOption(22, "Unit 1", "Field Medic")
 
@@ -152,18 +153,18 @@ TDS:Upgrade(26)
 TDS:Upgrade(26)
 TDS:Upgrade(26)
 TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 5
-TDS:Upgrade(18)
+TDS:Upgrade(17)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
 TDS:Upgrade(18)
 TDS:Upgrade(19)
-TDS:Upgrade(19)
-TDS:Upgrade(20)
-TDS:Upgrade(20)
-TDS:Upgrade(27)
-TDS:Upgrade(27)
-TDS:Upgrade(27)
-TDS:Upgrade(27)
-TDS:Upgrade(27)
 TDS:Place("Hacker", -10.69892, 95, -9.23184) -- 2
+
+TDS:autoskip(false)
+
 TDS:Upgrade(8)
 TDS:Upgrade(8)
 TDS:Upgrade(8)
@@ -172,11 +173,14 @@ TDS:Upgrade(28)
 TDS:Upgrade(28)
 TDS:Upgrade(28)
 TDS:Upgrade(28, 2)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
 
 TDS:Loadout("Spotlight Tech", "Scout", "DJ Booth", "Firework Technician", "Harvester")
 
-TDS:Place("Harvester", -14.87808, 95, 3.51654) -- 6
-TDS:Place("Harvester", -14.87808, 95, 3.51654) -- 6
+TDS:Place("Harvester", -7.76190, 95, -0.41696) -- 6
+TDS:Place("Harvester", -7.76190, 95, -0.41696) -- 6
 TDS:Upgrade(29)
 TDS:Upgrade(29)
 TDS:Upgrade(29)
